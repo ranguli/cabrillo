@@ -2,6 +2,15 @@ cabrillo [![Build Status](https://travis-ci.com/thxo/cabrillo.svg?branch=master)
 ---------------------
 A Python library to parse Cabrillo-format amateur radio contest logs, with no external dependencies.
 
+# Fork Status
+I'm not actively working on this project right now (Sept 2023) as I'm not doing much Python or ham radio stuff at the moment. 
+I may pick it up again later, but for now this repo is in maintenance mode. PRs and contributions are still welcome.
+
+The differences between this fork and the upstream repo are:
+- Switch to the Poetry build system ([PR #3](https://github.com/ranguli/cabrillo/pull/3))
+- Add ADIF to Cabrillo conversion ([PR #3](https://github.com/ranguli/cabrillo/pull/3))
+- Add missing fields/values from the Cabrillo spec ([PR #1](https://github.com/ranguli/cabrillo/pull/1), contributed back upstream)
+
 # Getting Started
 
 ## Basic Parsing
